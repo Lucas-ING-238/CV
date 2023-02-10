@@ -17,27 +17,28 @@ h1
     }
 h2
     {
+        font-size: 30px;
+    margin-left: 50px;
     font-family: 'Roboto', sans-serif;
- 
     }
     
-p1
+.formulario
     { 
-        font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    margin: 100px 100px 100px 100px;
-    padding: 100px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 50px 100px 100px 100px;
     font-style: italic;
     font-weight: bold;
+    
     }
 
-p2
+.Parrafo
     {
-
-    margin: 100px 100px 100px 100px;
-    font-size: 100px;
-    font-style: normal;
+    margin-left: 5cm;
+    margin-right: 5cm;
     font-weight: bold;
+    text-align:justify;
+    display: flex;
     }
 
 ul.lista 
