@@ -5,6 +5,8 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 }
+
+
 h1
     {font-family: 'Roboto', sans-serif;
     font-size: 80px;
@@ -17,25 +19,30 @@ h1
     }
 h2
     {
+        text-align: center;
         font-size: 30px;
-    margin-left: 50px;
-    font-family: 'Roboto', sans-serif;
+        margin-left: 50px;
+        font-family: 'Roboto', sans-serif;
     }
-    
-.formulario
-    { 
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin: 50px 100px 100px 100px;
-    font-style: italic;
-    font-weight: bold;
-    
-    }
-
+                        .datos
+                        {   font-size: 15px;
+                            background-color: transparent;
+                            transition: 1s; 
+                                              
+                        }
+                        .datos:hover
+                        {
+                            background-color: aquamarine;
+                            font-size: 25px;
+                            font-weight: bolder;
+                            
+                        }
+                       
+                                                                    
 .Parrafo
     {
     margin-left: 5cm;
-    margin-right: 5cm;
+    margin-right: auto;
     font-weight: bold;
     text-align:justify;
     display: flex;
@@ -55,14 +62,16 @@ a
         margin-bottom: 0px;  
     }
 a.ico:link
-{
-
+{   
+    filter: brightness(50%);
+    transition: 1s;
 }
 a.ico:hover 
 {   
-    filter:brightness(100%) contrast(200%);
-    zoom: 110%;
+    filter:brightness(150%) contrast(150%);
     margin-left: 10px;
     margin-right: 10px;
+    zoom: 120%;
     
 }
+
