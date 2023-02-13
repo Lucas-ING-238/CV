@@ -1,12 +1,11 @@
 body{
-background-image: url("https://i.pinimg.com/originals/01/62/1b/01621b2cfa606b188f62173f65c2a68e.jpg");
+background-image: url("https://img.freepik.com/vector-premium/fondo-dinamico-verde-azul-linea-malla-degradado-ilustracion-vectorial_103688-1633.jpg?w=2000");
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-position: center;
 }
 
-
+/*https://i.pinimg.com/originals/01/62/1b/01621b2cfa606b188f62173f65c2a68e.jpg*/
 h1
     {font-family: 'Roboto', sans-serif;
     font-size: 80px;
@@ -35,18 +34,11 @@ h2
                             background-color: aquamarine;
                             font-size: 25px;
                             font-weight: bolder;
-                            
+                            border-radius: 40px 40px 40px 40px;
+                            border: solid rgb(0, 102, 255) 0.5px;                           
                         }
                        
                                                                     
-.Parrafo
-    {
-    margin-left: 5cm;
-    margin-right: auto;
-    font-weight: bold;
-    text-align:justify;
-    display: flex;
-    }
 
 ul.lista 
     {
@@ -75,3 +67,16 @@ a.ico:hover
     
 }
 
+.contenedor
+{
+    display: flex;
+    text-align: center;
+}
+.texto
+{
+    position: relative;
+    margin: 1cm 2cm;
+    text-align: center;
+    text-align: justify;
+    font-size: 15px;
+}

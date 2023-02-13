@@ -1,4 +1,4 @@
-var i=0;
+var i=1;
 function cambio_foto()
 {
     /*if(i==0)
