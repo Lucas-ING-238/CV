@@ -69,14 +69,17 @@ a.ico:hover
 
 .contenedor
 {
-    display: flex;
+display: flex;
+justify-content: space-around;
     text-align: center;
 }
 .texto
 {
     position: relative;
-    margin: 1cm 2cm;
+    width: fit-content;
+    margin: 1cm ;
     text-align: center;
     text-align: justify;
     font-size: 15px;
+    display: inline-block;
 }
